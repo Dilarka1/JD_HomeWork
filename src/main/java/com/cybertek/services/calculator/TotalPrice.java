@@ -17,6 +17,12 @@ public class TotalPrice implements Calculator {
     private Room room;
     private State state;
     private Tax tax;
+    private Bedroom bedroom;
+    private DiningRoom diningRoom;
+    private HallWay hallWay;
+    private LivingRoom livingRoom;
+    private TexasTax texasTax;
+    private Texas texas;
 
     public TotalPrice(Room room) {
         this.room = room;
@@ -36,22 +42,32 @@ public class TotalPrice implements Calculator {
         this.tax = tax;
     }
 
-    public TotalPrice(){
+    public TotalPrice() {
 
+    }
+
+    public TotalPrice(Bedroom bedroom) {
+        this.bedroom = bedroom;
+    }
+
+    public TotalPrice(TexasTax texasTax) {
+        this.texasTax = texasTax;
+    }
+
+    public TotalPrice(Texas texas) {
+        this.texas = texas;
     }
 
     public void totalPrice() {
 
         //total price = price per sq.ft * area + tax
 
-        room.roomArea();
-        state.getPriceByState();
-        tax.getTax();
+        //  room.roomArea();
+        //  state.getPriceByState();
+        //  tax.getTax();
 
-    }
+        System.out.println("Total price is: " + bedroom + " " + texas + texasTax);
 
-    public static void main(String[] args) {
-        TotalPrice totalPrice = new TotalPrice();
 
     }
 }

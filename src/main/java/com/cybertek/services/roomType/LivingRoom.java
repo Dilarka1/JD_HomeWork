@@ -4,15 +4,15 @@ import com.cybertek.interfaces.Rooms.Room;
 
 import java.util.Scanner;
 
-public class LivingRoom implements Room {
+public class LivingRoom extends Room {
     double length = 12;
     double width = 10;
 
-    @Override
-    public void roomArea() {
+
+    public double roomArea() {
 
         //Area = length*width;
         double areaLivingRoom = length * width;
-        System.out.println("Area of the living room is:" + areaLivingRoom);
+        return areaLivingRoom;
     }
 }

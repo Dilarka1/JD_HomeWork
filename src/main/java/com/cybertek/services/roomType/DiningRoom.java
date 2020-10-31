@@ -4,16 +4,18 @@ import com.cybertek.interfaces.Rooms.Room;
 
 import java.util.Scanner;
 
-public class DiningRoom implements Room {
+public class DiningRoom extends Room {
 
     double length = 10;
     double width = 10;
 
-    @Override
-    public void roomArea() {
+
+    public double roomArea() {
 
         //Area = length*width;
         double areaDiningRoom = length * width;
-        System.out.println("Area of the dining room is:" + areaDiningRoom);
+        return areaDiningRoom;
     }
-}
+      //  System.out.println("Area of the dining room is:" + areaDiningRoom);
+    }
+

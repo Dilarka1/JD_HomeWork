@@ -1,5 +1,7 @@
 package com.cybertek.interfaces.Rooms;
 
-public interface Room {
-    void roomArea();
+public abstract class Room {
+    double roomArea(){
+        return 0.5;
+    }
 }
