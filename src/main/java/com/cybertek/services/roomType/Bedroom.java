@@ -5,8 +5,9 @@ import com.cybertek.interfaces.Rooms.Room;
 import java.util.Scanner;
 
 public class Bedroom implements Room {
+
     @Override
-    public void carpetForRoom() {
+    public void roomAres() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of the bedroom:");
