@@ -2,7 +2,7 @@ package com.cybertek.services.priceByState;
 
 import com.cybertek.interfaces.price.State;
 
-public class VA implements State {
+public class Virginia implements State {
     static double sq_ft_VA = 3.5;
 
     @Override

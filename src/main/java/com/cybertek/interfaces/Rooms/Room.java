@@ -1,5 +1,5 @@
 package com.cybertek.interfaces.Rooms;
 
 public interface Room {
-    void roomAres();
+    void roomArea();
 }

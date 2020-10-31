@@ -6,14 +6,11 @@ import java.util.Scanner;
 
 public class Bedroom implements Room {
 
-    @Override
-    public void roomAres() {
+    double length = 13;
+    double width = 8.8;
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the length of the bedroom:");
-        double length = scanner.nextDouble();
-        System.out.println("Enter the width of the bedroom:");
-        double width = scanner.nextDouble();
+    @Override
+    public void roomArea() {
 
         //Area = length*width;
         double areaBedroom = length * width;

@@ -5,14 +5,10 @@ import com.cybertek.interfaces.Rooms.Room;
 import java.util.Scanner;
 
 public class HallWay implements Room {
+    double length = 9.5;
+    double width = 6.4;
     @Override
-    public void roomAres() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the length of the hallway:");
-        double length = scanner.nextDouble();
-        System.out.println("Enter the width of the hallway:");
-        double width = scanner.nextDouble();
+    public void roomArea() {
 
         //Area = length*width;
         double areaHallway = length * width;

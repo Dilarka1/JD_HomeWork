@@ -5,14 +5,12 @@ import com.cybertek.interfaces.Rooms.Room;
 import java.util.Scanner;
 
 public class DiningRoom implements Room {
-    @Override
-    public void roomAres() {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the length of the dining room:");
-        double length = scanner.nextDouble();
-        System.out.println("Enter the width of teh dining room:");
-        double width = scanner.nextDouble();
+    double length = 10;
+    double width = 10;
+
+    @Override
+    public void roomArea() {
 
         //Area = length*width;
         double areaDiningRoom = length * width;
