@@ -1,7 +1,14 @@
 package com.cybertek.enums;
 
-public enum  Cities {
+public interface  Cities {
 
-    DALLAS, AUSTIN, SAN_ANTONIO, ARLINGTON, FAIRFAX, MCLEAN;
+    String DALLAS = "Dallas";
+    String AUSTIN = "Austin";
+    String SAN_ANTONIO = "San Antonio";
+    String ARLINGTON = "Arlington";
+    String FAIRFAX = "Fairfax";
+    String MCLEAN = "McLean";
+    String TEXAS = "Texas";
+    String VIRGINIA = "Virginia";
 
 }

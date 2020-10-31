@@ -16,8 +16,6 @@ public class CybertekApp {
       //  State state1 = container.getBean("va",State.class);
         Calculator calculator = container.getBean("totalPrice", Calculator.class);
 
-        //state.getPriceByState();
-        //state1.getPriceByState();
         calculator.totalPrice();
 
         ((AnnotationConfigApplicationContext) container).close();
