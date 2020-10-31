@@ -8,10 +8,6 @@ public class DiningRoom implements Room {
     @Override
     public void carpetForRoom() {
 
-    }
-
-    public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of the dining room:");
         double length = scanner.nextDouble();
@@ -19,7 +15,7 @@ public class DiningRoom implements Room {
         double width = scanner.nextDouble();
 
         //Area = length*width;
-        double area = length * width;
-        System.out.println("Area of the dining room is:" + area);
+        double areaDiningRoom = length * width;
+        System.out.println("Area of the dining room is:" + areaDiningRoom);
     }
 }

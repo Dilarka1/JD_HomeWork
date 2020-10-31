@@ -7,9 +7,6 @@ import java.util.Scanner;
 public class HallWay implements Room {
     @Override
     public void carpetForRoom() {
-    }
-
-    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of the hallway:");
@@ -18,7 +15,7 @@ public class HallWay implements Room {
         double width = scanner.nextDouble();
 
         //Area = length*width;
-        double area = length * width;
-        System.out.println("Area of the hallway is:" + area);
+        double areaHallway = length * width;
+        System.out.println("Area of the hallway is:" + areaHallway);
     }
 }
