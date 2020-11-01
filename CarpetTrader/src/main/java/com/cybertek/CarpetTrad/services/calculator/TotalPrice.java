@@ -68,6 +68,8 @@ public class TotalPrice implements Calculator {
 
         System.out.println("Total price is: " + bedroom + " " + texas + texasTax);
 
+       
+
 
     }
 }
