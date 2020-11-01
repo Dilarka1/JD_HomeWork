@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarpetSolutionApplication {
+public class CybertekLabApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarpetSolutionApplication.class, args);
+		SpringApplication.run(CybertekLabApplication.class, args);
 	}
 
 }

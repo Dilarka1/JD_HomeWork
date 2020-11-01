@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-07-SpringBoot-loc-DI-Lab" />
         <module name="CarpetTrader" />
-        <module name="HomeWork-CarpetSolution" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HomeWork-CarpetSolution" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CarpetTrader" options="-parameters" />
+      <module name="Spring-07-SpringBoot-loc-DI-Lab" options="-parameters" />
     </option>
   </component>
 </project>
